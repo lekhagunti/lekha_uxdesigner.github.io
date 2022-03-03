@@ -1,0 +1,173 @@
+* {
+  margin: 00px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/Cover-pic.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+}
+header {
+  display: flex;
+  background: black;
+  position: static;
+  border-bottom: rgba(119, 136, 153, 0.4) solid 2px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 4% 10px 4%;
+  margin-top: 20px;
+}
+
+header .logo {
+  display: block;
+  align-items: flex-start;
+  width: 15%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 45%;
+}
+
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px;
+}
+
+.home {
+  background-color: rgba(223, 171, 223, 0.6);
+  border-bottom: azure solid 2px;
+  transform: scale(1.08);
+  font-weight: bolder;
+  color: white;
+}
+
+.nav_links li a {
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: ivory;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav_links li a:hover {
+  color: white;
+  background-color: rgba(223, 171, 223, 0.6);
+  font-weight: bolder;
+  transform: scale(1.08);
+}
+
+.abt_me {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: red;
+  border: grey double solid 2px;
+  border-radius: 15px;
+  margin: 20px 7% auto 7%;
+  height: 80vh;
+}
+
+.abt_me .pic {
+  display: inline-block;
+  width: 45%;
+  border-radius: 45%;
+  height: auto;
+
+  margin: 0px auto auto auto;
+  background: transparent;
+}
+
+.abt_me .text_data {
+  display: block;
+  width: 370px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-right: 25px;
+}
+
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 70px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.intro {
+  font-family: sans-serif;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.b {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.abt_me .b .b1 {
+  display: inline block;
+  position: absolute;
+  position: relative;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 10px 30px 10px 30px;
+  padding: 10px 22px 10px 22px;
+  color: azure;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+  background-color: purple;
+  transition: 0.5s ease-in-out;
+  font-weight: bold;
+}
+
+.abt_me .b .b2 {
+  display: inline block;
+  position: absolute;
+  position: relative;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 10px 30px 10px 30px;
+  padding: 10px 15px 10px 15px;
+  color: azure;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+  background-color: purple;
+  transition: 0.5s ease-in-out;
+  font-weight: bold;
+}
+
+.abt_me .b .b1:hover {
+  background-color: rgb(180, 90, 180);
+  border: purple solid 3px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.abt_me .b .b2:hover {
+  background-color: rgb(180, 90, 180);
+  border: purple solid 3px;
+  border-radius: 10px;
+  font-weight: bolder;
+}

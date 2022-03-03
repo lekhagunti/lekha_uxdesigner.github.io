@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  margin-top: 0%;
+}
+header {
+  display: flex;
+  position: static;
+  background: black;
+  border-bottom: rgba(119, 136, 153, 0.8) solid 2px;
+  justify-content: flex-end;
+  margin-top: 0%;
+  align-items: center;
+  padding: 20px 4% 10px 4%;
+}
+
+header .logo {
+  display: block;
+  align-items: flex-start;
+  width: 15%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 45%;
+}
+
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px;
+}
+
+.contact_me {
+  background-color: rgba(223, 171, 223, 0.6);
+  border-bottom: azure solid 2px;
+  transform: scale(1.08);
+  font-weight: bolder;
+  color: white;
+}
+
+.nav_links li a {
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: ivory;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav_links li a:hover {
+  color: white;
+  background-color: rgba(223, 171, 223, 0.6);
+  font-weight: bolder;
+  transform: scale(1.08);
+  text-decoration: underline;
+}
+
+.container2 {
+  width: 75%;
+  margin: auto;
+  background: rgb(241, 235, 241);
+  border: rgb(233, 102, 233) 5px solid;
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container2 h1 {
+  text-align: center;
+  color: purple;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: underline solid;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.container2 .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container2 .content .left-side {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+}
+
+.content .left-side .details {
+  margin: 14px;
+  text-align: center;
+}
+.content .left-side .details i {
+  font-size: 45px;
+  color: purple;
+  margin-bottom: 10px;
+}
+.content .left-side .details .topic {
+  font-size: 24px;
+  font-weight: bold;
+}
+.content .left-side .details .text-one {
+  font-size: 22x;
+  color: black;
+}
+
+.content .left-side .details .text-one {
+  color: rgb(72, 72, 194);
+}
