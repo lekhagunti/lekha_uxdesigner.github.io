@@ -133,3 +133,24 @@ header .logo {
 .content .left-side .details .text-one {
   color: rgb(72, 72, 194);
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    margin-top: 50px;
+  }
+  header {
+    left: 2px;
+  }
+
+  header .logo {
+    width: 20%;
+    margin-right: 10%;
+    padding-left: 0;
+    margin-rleft: 2px;
+  }
+
+  .nav_links li a {
+    font-size: 7px;
+    padding: 5px 5px;
+  }
+}

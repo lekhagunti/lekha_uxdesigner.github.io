@@ -303,3 +303,56 @@ header .logo {
 .appdesign .user_des li b {
   text-decoration: underline solid;
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    margin-top: 80px;
+  }
+
+  header .logo {
+    width: 20%;
+    margin-right: 10%;
+    padding-left: 0;
+    margin-rleft: 2px;
+  }
+  .appdesign .con {
+    margin: 0px 35px 10px 35px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .appdesign .con .user_des li {
+    margin: 0px 35px 10px 25px;
+  }
+
+  .appdesign .conheading {
+    margin: 20px 25px 10px 35px;
+    font-size: 13px;
+  }
+
+  .appdesign .csheading {
+    font-size: 35px;
+  }
+  .nav_links li a {
+    font-size: 7px;
+    padding: 5px 5px;
+  }
+
+  .appdesign .heading {
+    font-size: 30px;
+  }
+
+  .appdesign .webheaderimg {
+    width: 100%;
+    height: 175px;
+  }
+
+  .appdesign .webheaderimg3 {
+    width: 100%;
+    height: 150px;
+  }
+
+  .appdesign .webheaderimg4 {
+    width: 100%;
+    height: 250px;
+  }
+}

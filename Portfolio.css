@@ -26,7 +26,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   margin-top: 0%;
-  padding: 10px 4% 10px 4%;
+  padding: 10px 4% 10px 2%;
 }
 
 header .logo {
@@ -76,7 +76,6 @@ header .logo {
 }
 
 /*hover first banner*/
-
 .container {
   position: relative;
   display: flex;
@@ -281,4 +280,51 @@ header .logo {
   align-items: center;
   width: 50%;
   height: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    margin-top: 80px;
+  }
+
+  header .logo {
+    width: 20%;
+    margin-right: 10%;
+    padding-left: 0;
+    margin-rleft: 2px;
+  }
+  .appdesign .con {
+    margin: 0px 35px 10px 25px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .appdesign .conheading {
+    margin: 20px 25px 10px 25px;
+    font-size: 13px;
+  }
+
+  .nav_links li a {
+    font-size: 7px;
+    padding: 5px 5px;
+  }
+
+  .appdesign .heading {
+    font-size: 30px;
+  }
+
+  .appdesign .webheaderimg {
+    width: 100%;
+    height: 175px;
+  }
+
+  .appdesign .webheaderimg3 {
+    width: 100%;
+    height: 150px;
+  }
+
+  .appdesign .webheaderimg4 {
+    width: 100%;
+    height: 250px;
+  }
 }
