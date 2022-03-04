@@ -213,8 +213,7 @@ h1 {
 
   .abt_me.text_data {
     align-items: center;
-    margin: auto;
-    margin-right: 0;
+    margin: 5px;
   }
   .abt_me .text_data h1 {
     font-size: 50px;
