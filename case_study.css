@@ -325,6 +325,10 @@ header .logo {
     font-size: 12px;
     line-height: 20px;
   }
+  .appdesign .user_des li b {
+    font-size: 12px;
+    font-weight: 700;
+  }
 
   .appdesign .conheading {
     margin: 20px 25px 10px 35px;
