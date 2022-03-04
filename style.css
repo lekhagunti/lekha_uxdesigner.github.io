@@ -175,9 +175,6 @@ h1 {
   .container {
     margin-top: 50px;
   }
-  header {
-    left: 2px;
-  }
 
   header .logo {
     width: 20%;
@@ -210,13 +207,14 @@ h1 {
     border: 3px purple solid;
     width: 145px;
     height: 145px;
-    margin-top: 20%;
+    margin-top: 10px;
     margin-bottom: 20px;
   }
 
   .abt_me.text_data {
     align-items: center;
     margin: auto;
+    margin-right: 0;
   }
   .abt_me .text_data h1 {
     font-size: 50px;
