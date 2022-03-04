@@ -320,8 +320,10 @@ header .logo {
     font-size: 12px;
     line-height: 20px;
   }
-  .appdesign .con .user_des li {
-    margin: 0px 35px 10px 25px;
+  .appdesign .user_des li {
+    margin: 0px 35px 10px 45px;
+    font-size: 12px;
+    line-height: 20px;
   }
 
   .appdesign .conheading {
