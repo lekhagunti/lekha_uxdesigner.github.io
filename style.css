@@ -100,7 +100,7 @@ header .logo {
   margin-right: 25px;
 }
 
-h1 {
+.abt_me .text_data h1 {
   font-weight: bolder;
   text-align: center;
   font-size: 70px;
@@ -108,7 +108,7 @@ h1 {
   color: black;
 }
 
-.intro {
+.abt_me .text_data .intro {
   font-family: sans-serif;
   font-size: 22px;
   line-height: 25px;
@@ -220,10 +220,11 @@ h1 {
   }
   .abt_me .text_data h1 {
     font-size: 50px;
-    align-items: center;
+    text-align: center;
   }
   .abt_me .text_data .intro {
     font-size: 18px;
+    text-align: center;
     margin: 0%;
     padding: 0px;
   }
